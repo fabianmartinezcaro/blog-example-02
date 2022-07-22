@@ -1,0 +1,63 @@
+:root{
+
+    --primmary-color: #222831;
+    --secondary-color: #393e46;
+    --thirdth-color: #f96d00;
+    --fourth-color: #f2f2f2;
+
+}
+
+body{
+
+    background-color: var(--fourth-color);
+    color: var(--fourth-color);
+
+}
+
+header{
+
+    background-color: var(--primmary-color);
+    color: aqua;
+
+}
+
+main{
+
+    display: grid;
+    grid-template-columns: 500px 100px;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+section{
+
+    display: grid;
+
+}
+
+article{
+
+    height: 250px;
+
+}
+
+footer{
+
+    background-color: var(--primmary-color);
+
+}
+
+.producto{
+
+    background-color: var(--secondary-color);
+
+
+}
+
+.sidebar_productos{
+    
+    background-color: var(--thirdth-color);
+
+
+}
