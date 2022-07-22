@@ -17,14 +17,17 @@ body{
 header{
 
     background-color: var(--primmary-color);
-    color: aqua;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: 75px;
 
 }
 
 main{
 
     display: grid;
-    grid-template-columns: 500px 100px;
+    grid-template-columns: 900px 300px;
     gap: 10px;
     justify-content: center;
 
@@ -37,8 +40,9 @@ section{
 }
 
 article{
-
+    
     height: 250px;
+    
 
 }
 
@@ -48,10 +52,50 @@ footer{
 
 }
 
+/* HEADER */
+
+.header_titulo{
+
+    background-color: #8a8a8a;
+    text-align: center;
+    margin: auto auto;
+    font-size: 25px;
+    width: 100px;
+
+}
+
+.header_navbar{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar_list{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav_link{
+
+    text-decoration: none;
+    color: var(--fourth-color);
+    padding: 10px 20px;
+
+}
+
+
+
+/* MAIN */
+
 .producto{
 
     background-color: var(--secondary-color);
-
 
 }
 
@@ -59,5 +103,5 @@ footer{
     
     background-color: var(--thirdth-color);
 
-
 }
+
